@@ -1,0 +1,6 @@
+framework module Pods_bmi_project {
+  umbrella header "Pods-bmi-project-umbrella.h"
+
+  export *
+  module * { export * }
+}
