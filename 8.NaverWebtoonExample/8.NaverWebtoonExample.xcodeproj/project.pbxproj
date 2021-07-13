@@ -13,6 +13,8 @@
 		37092916269AEC490070E4AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37092914269AEC490070E4AC /* Main.storyboard */; };
 		37092918269AEC4A0070E4AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37092917269AEC4A0070E4AC /* Assets.xcassets */; };
 		3709291B269AEC4A0070E4AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37092919269AEC4A0070E4AC /* LaunchScreen.storyboard */; };
+		37105F4A269D08FD006D8AF3 /* WebToonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37105F49269D08FD006D8AF3 /* WebToonCell.swift */; };
+		37105F4C269D1109006D8AF3 /* WebToonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37105F4B269D1109006D8AF3 /* WebToonData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		37092917269AEC4A0070E4AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3709291A269AEC4A0070E4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3709291C269AEC4A0070E4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37105F49269D08FD006D8AF3 /* WebToonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebToonCell.swift; sourceTree = "<group>"; };
+		37105F4B269D1109006D8AF3 /* WebToonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebToonData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				3709290E269AEC490070E4AC /* AppDelegate.swift */,
 				37092910269AEC490070E4AC /* SceneDelegate.swift */,
 				37092912269AEC490070E4AC /* ViewController.swift */,
+				37105F4B269D1109006D8AF3 /* WebToonData.swift */,
 				37092914269AEC490070E4AC /* Main.storyboard */,
 				37092917269AEC4A0070E4AC /* Assets.xcassets */,
 				37092919269AEC4A0070E4AC /* LaunchScreen.storyboard */,
 				3709291C269AEC4A0070E4AC /* Info.plist */,
+				37105F49269D08FD006D8AF3 /* WebToonCell.swift */,
 			);
 			path = 8.NaverWebtoonExample;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				37092913269AEC490070E4AC /* ViewController.swift in Sources */,
 				3709290F269AEC490070E4AC /* AppDelegate.swift in Sources */,
+				37105F4C269D1109006D8AF3 /* WebToonData.swift in Sources */,
+				37105F4A269D08FD006D8AF3 /* WebToonCell.swift in Sources */,
 				37092911269AEC490070E4AC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
